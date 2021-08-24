@@ -29,11 +29,9 @@ namespace Tarea_con_colores_5
 
         private void nuevoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form2 Nuevo = new Form2();
+            Form Nuevo = new Form2();
 
-            Nuevo.MdiParent = this;
-
-            Nuevo.Show();
+           Nuevo.Show();
         }
     }
 }

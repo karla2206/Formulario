@@ -18,3 +18,4 @@ C:\Users\Jose Lobos\Source\Repos\Formularios-con-colores\Tarea con colores 5\obj
 C:\Users\Jose Lobos\Source\Repos\Formularios-con-colores\Tarea con colores 5\bin\Debug\Tarea con colores 5.exe.config
 C:\Users\Jose Lobos\Source\Repos\Formularios-con-colores\Tarea con colores 5\bin\Debug\Tarea con colores 5.exe
 C:\Users\Jose Lobos\Source\Repos\Formularios-con-colores\Tarea con colores 5\bin\Debug\Tarea con colores 5.pdb
+C:\Users\Jose Lobos\Source\Repos\Formularios-con-colores\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Form2.resources
