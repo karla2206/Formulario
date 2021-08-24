@@ -38,5 +38,10 @@ namespace Tarea_con_colores_5
         {
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
