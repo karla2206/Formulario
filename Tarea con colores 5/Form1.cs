@@ -17,34 +17,23 @@ namespace Tarea_con_colores_5
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Ha aceptado los terminos de este formulario", "Mensaje con botòn Aceptar");
+            MessageBox.Show("Desarrollado por: Grupo numero 5", "ACERCA DE...");
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Ha aceptado o cancelado los terminos de este formulario", "Mensaje con botòn Aceptar/Cancelar");
+            this.Close();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void nuevoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Ha aceptado o rechazado los terminos de este formulario", "Mensaje con botòn Si/No");
-        }
+            Form2 Nuevo = new Form2();
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Ha presionado el botòn de exclamaciòn", "Mensaje con botòn Exclamaciòn ");
-        }
+            Nuevo.MdiParent = this;
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Ha presionado el botòn de interrogaciòn", "Mensaje con botòn Interrogaciòn");
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Ha presionado el botòn de Error", "Mensaje con botòn de Error");
+            Nuevo.Show();
         }
     }
 }
