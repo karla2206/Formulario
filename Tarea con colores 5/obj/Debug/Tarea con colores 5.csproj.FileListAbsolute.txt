@@ -1,0 +1,10 @@
+C:\Users\10kar\OneDrive\Escritorio\Program ciclo II\Tarea con colores 5\bin\Debug\Tarea con colores 5.exe.config
+C:\Users\10kar\OneDrive\Escritorio\Program ciclo II\Tarea con colores 5\bin\Debug\Tarea con colores 5.exe
+C:\Users\10kar\OneDrive\Escritorio\Program ciclo II\Tarea con colores 5\bin\Debug\Tarea con colores 5.pdb
+C:\Users\10kar\OneDrive\Escritorio\Program ciclo II\Tarea con colores 5\obj\Debug\Tarea con colores 5.csproj.AssemblyReference.cache
+C:\Users\10kar\OneDrive\Escritorio\Program ciclo II\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Form1.resources
+C:\Users\10kar\OneDrive\Escritorio\Program ciclo II\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Properties.Resources.resources
+C:\Users\10kar\OneDrive\Escritorio\Program ciclo II\Tarea con colores 5\obj\Debug\Tarea con colores 5.csproj.GenerateResource.cache
+C:\Users\10kar\OneDrive\Escritorio\Program ciclo II\Tarea con colores 5\obj\Debug\Tarea con colores 5.csproj.CoreCompileInputs.cache
+C:\Users\10kar\OneDrive\Escritorio\Program ciclo II\Tarea con colores 5\obj\Debug\Tarea con colores 5.exe
+C:\Users\10kar\OneDrive\Escritorio\Program ciclo II\Tarea con colores 5\obj\Debug\Tarea con colores 5.pdb
