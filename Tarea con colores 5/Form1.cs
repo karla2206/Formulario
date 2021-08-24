@@ -33,5 +33,10 @@ namespace Tarea_con_colores_5
 
            Nuevo.Show();
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }
