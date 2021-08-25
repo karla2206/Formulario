@@ -31,19 +31,19 @@ namespace Tarea_con_colores_5
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.formulariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.formularioDeVentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.personalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.joseAlexanderSalinasLobosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.karlaBeatrizToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.juanCarlosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.juanAlfredoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.katterineYeferineToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.computadorasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.laptopsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.celularesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.katterineYeferineToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.formularioDeVentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,6 +68,13 @@ namespace Tarea_con_colores_5
             this.formulariosToolStripMenuItem.Name = "formulariosToolStripMenuItem";
             this.formulariosToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
             this.formulariosToolStripMenuItem.Text = "Formularios";
+            // 
+            // formularioDeVentasToolStripMenuItem
+            // 
+            this.formularioDeVentasToolStripMenuItem.Name = "formularioDeVentasToolStripMenuItem";
+            this.formularioDeVentasToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.formularioDeVentasToolStripMenuItem.Text = "Formulario de Ventas";
+            this.formularioDeVentasToolStripMenuItem.Click += new System.EventHandler(this.formularioDeVentasToolStripMenuItem_Click);
             // 
             // personalToolStripMenuItem
             // 
@@ -105,11 +112,19 @@ namespace Tarea_con_colores_5
             this.juanAlfredoToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
             this.juanAlfredoToolStripMenuItem.Text = "Juan Alfredo";
             // 
+            // katterineYeferineToolStripMenuItem
+            // 
+            this.katterineYeferineToolStripMenuItem.Name = "katterineYeferineToolStripMenuItem";
+            this.katterineYeferineToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
+            this.katterineYeferineToolStripMenuItem.Text = "Katterine Yeferine";
+            this.katterineYeferineToolStripMenuItem.Click += new System.EventHandler(this.katterineYeferineToolStripMenuItem_Click);
+            // 
             // ayudaToolStripMenuItem
             // 
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
+            this.ayudaToolStripMenuItem.Click += new System.EventHandler(this.ayudaToolStripMenuItem_Click);
             // 
             // acercaDeToolStripMenuItem
             // 
@@ -124,21 +139,21 @@ namespace Tarea_con_colores_5
             // computadorasToolStripMenuItem
             // 
             this.computadorasToolStripMenuItem.Name = "computadorasToolStripMenuItem";
-            this.computadorasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.computadorasToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.computadorasToolStripMenuItem.Text = "Computadoras";
             this.computadorasToolStripMenuItem.Click += new System.EventHandler(this.computadorasToolStripMenuItem_Click);
             // 
             // laptopsToolStripMenuItem
             // 
             this.laptopsToolStripMenuItem.Name = "laptopsToolStripMenuItem";
-            this.laptopsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.laptopsToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.laptopsToolStripMenuItem.Text = "Laptops";
             this.laptopsToolStripMenuItem.Click += new System.EventHandler(this.laptopsToolStripMenuItem_Click);
             // 
             // celularesToolStripMenuItem
             // 
             this.celularesToolStripMenuItem.Name = "celularesToolStripMenuItem";
-            this.celularesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.celularesToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.celularesToolStripMenuItem.Text = "Celulares";
             this.celularesToolStripMenuItem.Click += new System.EventHandler(this.celularesToolStripMenuItem_Click);
             // 
@@ -148,19 +163,6 @@ namespace Tarea_con_colores_5
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
-            // 
-            // katterineYeferineToolStripMenuItem
-            // 
-            this.katterineYeferineToolStripMenuItem.Name = "katterineYeferineToolStripMenuItem";
-            this.katterineYeferineToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
-            this.katterineYeferineToolStripMenuItem.Text = "Katterine Yeferine";
-            // 
-            // formularioDeVentasToolStripMenuItem
-            // 
-            this.formularioDeVentasToolStripMenuItem.Name = "formularioDeVentasToolStripMenuItem";
-            this.formularioDeVentasToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.formularioDeVentasToolStripMenuItem.Text = "Formulario de Ventas";
-            this.formularioDeVentasToolStripMenuItem.Click += new System.EventHandler(this.formularioDeVentasToolStripMenuItem_Click);
             // 
             // Form1
             // 

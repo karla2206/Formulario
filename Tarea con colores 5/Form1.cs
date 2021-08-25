@@ -47,9 +47,20 @@ namespace Tarea_con_colores_5
 
         private void formularioDeVentasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form formularioDeVentas = new Form4();
+            Form formularioDeVentas = new Form5();
             formularioDeVentas.Show();
+        }
+
+        private void katterineYeferineToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form AYUDA= new Form6();
+            AYUDA.Show();
         }
     }
     }
-}
+

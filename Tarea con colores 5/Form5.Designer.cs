@@ -42,6 +42,11 @@ namespace Tarea_con_colores_5
             this.button1 = new System.Windows.Forms.Button();
             this.btnCargarLista = new System.Windows.Forms.Button();
             this.dgvLista = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtVender = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.txtEfectivo = new System.Windows.Forms.TextBox();
@@ -49,17 +54,12 @@ namespace Tarea_con_colores_5
             this.lblFecha = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.lblCostoApagar = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
+            this.lblCostoApagar = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.lblDevolucion = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLista)).BeginInit();
             this.panel2.SuspendLayout();
@@ -189,6 +189,31 @@ namespace Tarea_con_colores_5
             this.dgvLista.Size = new System.Drawing.Size(449, 148);
             this.dgvLista.TabIndex = 11;
             // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "ldArticulo";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Nombre";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Precio";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Cantidad";
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "SubTotal";
+            this.Column5.Name = "Column5";
+            // 
             // txtVender
             // 
             this.txtVender.BackColor = System.Drawing.Color.Red;
@@ -199,6 +224,7 @@ namespace Tarea_con_colores_5
             this.txtVender.TabIndex = 12;
             this.txtVender.Text = "Vender";
             this.txtVender.UseVisualStyleBackColor = false;
+            this.txtVender.Click += new System.EventHandler(this.txtVender_Click);
             // 
             // label6
             // 
@@ -255,17 +281,6 @@ namespace Tarea_con_colores_5
             this.panel2.Size = new System.Drawing.Size(170, 25);
             this.panel2.TabIndex = 20;
             // 
-            // lblCostoApagar
-            // 
-            this.lblCostoApagar.AutoSize = true;
-            this.lblCostoApagar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCostoApagar.ForeColor = System.Drawing.Color.Red;
-            this.lblCostoApagar.Location = new System.Drawing.Point(54, 5);
-            this.lblCostoApagar.Name = "lblCostoApagar";
-            this.lblCostoApagar.Size = new System.Drawing.Size(40, 19);
-            this.lblCostoApagar.TabIndex = 20;
-            this.lblCostoApagar.Text = "0.00";
-            // 
             // label13
             // 
             this.label13.AutoSize = true;
@@ -276,6 +291,17 @@ namespace Tarea_con_colores_5
             this.label13.Size = new System.Drawing.Size(18, 19);
             this.label13.TabIndex = 21;
             this.label13.Text = "$";
+            // 
+            // lblCostoApagar
+            // 
+            this.lblCostoApagar.AutoSize = true;
+            this.lblCostoApagar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCostoApagar.ForeColor = System.Drawing.Color.Red;
+            this.lblCostoApagar.Location = new System.Drawing.Point(54, 5);
+            this.lblCostoApagar.Name = "lblCostoApagar";
+            this.lblCostoApagar.Size = new System.Drawing.Size(40, 19);
+            this.lblCostoApagar.TabIndex = 20;
+            this.lblCostoApagar.Text = "0.00";
             // 
             // panel3
             // 
@@ -317,31 +343,6 @@ namespace Tarea_con_colores_5
             this.label11.Size = new System.Drawing.Size(64, 13);
             this.label11.TabIndex = 21;
             this.label11.Text = "Devolucion:";
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "ldArticulo";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Nombre";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Precio";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Cantidad";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "SubTotal";
-            this.Column5.Name = "Column5";
             // 
             // Form5
             // 

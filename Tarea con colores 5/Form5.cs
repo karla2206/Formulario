@@ -59,8 +59,41 @@ namespace Tarea_con_colores_5
 
                     Fila++;
                     txtldArticulo.Text = txtNombre.Text = txtPrecio.Text = txtCantidad.Text = "";
+                    txtldArticulo.Focus();
                 }
             }
             catch
+            {
+
+            }
+        }
+
+        public void CostoApagar()
+        {
+            float CostoTotal = 0;
+            int Conteo = 0;
+
+            Conteo = dgvLista.RowCount;
+
+            for (int i = 0; i < Conteo; i++)
+            {
+                CostoTotal += float.Parse(dgvLista.Rows[i].Cells[4].Value.ToString());
+            }
+            lblCostoApagar.Text = CostoTotal.ToString();
+
+        }
+
+        private void txtVender_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Venta realizada, ¡¡Gracias por su compra que tenga excelente día!!. ",
+               "EMPRESA ELECTRIC ",
+              MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+        }
     }
 }
+
+
+
+
+
+
