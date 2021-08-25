@@ -39,5 +39,10 @@ namespace Tarea_con_colores_5
             Form Celulares = new Form4();
             Celulares.Show();
         }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

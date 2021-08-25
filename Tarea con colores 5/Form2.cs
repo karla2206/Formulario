@@ -26,5 +26,10 @@ namespace Tarea_con_colores_5
         {
 
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

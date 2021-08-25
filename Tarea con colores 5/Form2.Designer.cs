@@ -42,6 +42,7 @@ namespace Tarea_con_colores_5
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.checkedListBox6 = new System.Windows.Forms.CheckedListBox();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -177,11 +178,25 @@ namespace Tarea_con_colores_5
             this.checkedListBox6.Size = new System.Drawing.Size(351, 34);
             this.checkedListBox6.TabIndex = 13;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Red;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(753, 9);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(17, 16);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "X";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.checkedListBox6);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.checkedListBox5);
@@ -219,5 +234,6 @@ namespace Tarea_con_colores_5
         private System.Windows.Forms.CheckedListBox checkedListBox5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.CheckedListBox checkedListBox6;
+        private System.Windows.Forms.Label label7;
     }
 }

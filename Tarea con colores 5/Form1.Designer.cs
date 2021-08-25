@@ -32,16 +32,17 @@ namespace Tarea_con_colores_5
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.formulariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.personalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.computadorasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.laptopsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.joseAlexanderSalinasLobosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.karlaBeatrizToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.juanCarlosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.juanAlfredoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.computadorasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.laptopsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.celularesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.formularioParaRegistroDePreciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,6 +62,8 @@ namespace Tarea_con_colores_5
             // 
             // formulariosToolStripMenuItem
             // 
+            this.formulariosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.formularioParaRegistroDePreciosToolStripMenuItem});
             this.formulariosToolStripMenuItem.Name = "formulariosToolStripMenuItem";
             this.formulariosToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
             this.formulariosToolStripMenuItem.Text = "Formularios";
@@ -75,42 +78,6 @@ namespace Tarea_con_colores_5
             this.personalToolStripMenuItem.Name = "personalToolStripMenuItem";
             this.personalToolStripMenuItem.Size = new System.Drawing.Size(78, 20);
             this.personalToolStripMenuItem.Text = "Integrantes";
-            // 
-            // ayudaToolStripMenuItem
-            // 
-            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
-            this.ayudaToolStripMenuItem.Text = "Ayuda";
-            // 
-            // acercaDeToolStripMenuItem
-            // 
-            this.acercaDeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.computadorasToolStripMenuItem,
-            this.laptopsToolStripMenuItem,
-            this.celularesToolStripMenuItem});
-            this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
-            this.acercaDeToolStripMenuItem.Text = "Acerca De...";
-            // 
-            // computadorasToolStripMenuItem
-            // 
-            this.computadorasToolStripMenuItem.Name = "computadorasToolStripMenuItem";
-            this.computadorasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.computadorasToolStripMenuItem.Text = "Computadoras";
-            this.computadorasToolStripMenuItem.Click += new System.EventHandler(this.computadorasToolStripMenuItem_Click);
-            // 
-            // salirToolStripMenuItem
-            // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
-            this.salirToolStripMenuItem.Text = "Salir";
-            // 
-            // laptopsToolStripMenuItem
-            // 
-            this.laptopsToolStripMenuItem.Name = "laptopsToolStripMenuItem";
-            this.laptopsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.laptopsToolStripMenuItem.Text = "Laptops";
-            this.laptopsToolStripMenuItem.Click += new System.EventHandler(this.laptopsToolStripMenuItem_Click);
             // 
             // joseAlexanderSalinasLobosToolStripMenuItem
             // 
@@ -136,12 +103,55 @@ namespace Tarea_con_colores_5
             this.juanAlfredoToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
             this.juanAlfredoToolStripMenuItem.Text = "Juan Alfredo";
             // 
+            // ayudaToolStripMenuItem
+            // 
+            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.ayudaToolStripMenuItem.Text = "Ayuda";
+            // 
+            // acercaDeToolStripMenuItem
+            // 
+            this.acercaDeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.computadorasToolStripMenuItem,
+            this.laptopsToolStripMenuItem,
+            this.celularesToolStripMenuItem});
+            this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
+            this.acercaDeToolStripMenuItem.Text = "Acerca De...";
+            // 
+            // computadorasToolStripMenuItem
+            // 
+            this.computadorasToolStripMenuItem.Name = "computadorasToolStripMenuItem";
+            this.computadorasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.computadorasToolStripMenuItem.Text = "Computadoras";
+            this.computadorasToolStripMenuItem.Click += new System.EventHandler(this.computadorasToolStripMenuItem_Click);
+            // 
+            // laptopsToolStripMenuItem
+            // 
+            this.laptopsToolStripMenuItem.Name = "laptopsToolStripMenuItem";
+            this.laptopsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.laptopsToolStripMenuItem.Text = "Laptops";
+            this.laptopsToolStripMenuItem.Click += new System.EventHandler(this.laptopsToolStripMenuItem_Click);
+            // 
             // celularesToolStripMenuItem
             // 
             this.celularesToolStripMenuItem.Name = "celularesToolStripMenuItem";
             this.celularesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.celularesToolStripMenuItem.Text = "Celulares";
             this.celularesToolStripMenuItem.Click += new System.EventHandler(this.celularesToolStripMenuItem_Click);
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
+            // formularioParaRegistroDePreciosToolStripMenuItem
+            // 
+            this.formularioParaRegistroDePreciosToolStripMenuItem.Name = "formularioParaRegistroDePreciosToolStripMenuItem";
+            this.formularioParaRegistroDePreciosToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
+            this.formularioParaRegistroDePreciosToolStripMenuItem.Text = "Formulario Para Registro de Ventas";
             // 
             // Form1
             // 
@@ -176,5 +186,6 @@ namespace Tarea_con_colores_5
         private System.Windows.Forms.ToolStripMenuItem juanCarlosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem juanAlfredoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem celularesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem formularioParaRegistroDePreciosToolStripMenuItem;
     }
 }
