@@ -42,7 +42,8 @@ namespace Tarea_con_colores_5
             this.laptopsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.celularesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.formularioParaRegistroDePreciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.katterineYeferineToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.formularioDeVentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,7 +64,7 @@ namespace Tarea_con_colores_5
             // formulariosToolStripMenuItem
             // 
             this.formulariosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.formularioParaRegistroDePreciosToolStripMenuItem});
+            this.formularioDeVentasToolStripMenuItem});
             this.formulariosToolStripMenuItem.Name = "formulariosToolStripMenuItem";
             this.formulariosToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
             this.formulariosToolStripMenuItem.Text = "Formularios";
@@ -74,7 +75,8 @@ namespace Tarea_con_colores_5
             this.joseAlexanderSalinasLobosToolStripMenuItem,
             this.karlaBeatrizToolStripMenuItem,
             this.juanCarlosToolStripMenuItem,
-            this.juanAlfredoToolStripMenuItem});
+            this.juanAlfredoToolStripMenuItem,
+            this.katterineYeferineToolStripMenuItem});
             this.personalToolStripMenuItem.Name = "personalToolStripMenuItem";
             this.personalToolStripMenuItem.Size = new System.Drawing.Size(78, 20);
             this.personalToolStripMenuItem.Text = "Integrantes";
@@ -147,11 +149,18 @@ namespace Tarea_con_colores_5
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
-            // formularioParaRegistroDePreciosToolStripMenuItem
+            // katterineYeferineToolStripMenuItem
             // 
-            this.formularioParaRegistroDePreciosToolStripMenuItem.Name = "formularioParaRegistroDePreciosToolStripMenuItem";
-            this.formularioParaRegistroDePreciosToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.formularioParaRegistroDePreciosToolStripMenuItem.Text = "Formulario de Ventas";
+            this.katterineYeferineToolStripMenuItem.Name = "katterineYeferineToolStripMenuItem";
+            this.katterineYeferineToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
+            this.katterineYeferineToolStripMenuItem.Text = "Katterine Yeferine";
+            // 
+            // formularioDeVentasToolStripMenuItem
+            // 
+            this.formularioDeVentasToolStripMenuItem.Name = "formularioDeVentasToolStripMenuItem";
+            this.formularioDeVentasToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.formularioDeVentasToolStripMenuItem.Text = "Formulario de Ventas";
+            this.formularioDeVentasToolStripMenuItem.Click += new System.EventHandler(this.formularioDeVentasToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -186,6 +195,7 @@ namespace Tarea_con_colores_5
         private System.Windows.Forms.ToolStripMenuItem juanCarlosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem juanAlfredoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem celularesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem formularioParaRegistroDePreciosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem katterineYeferineToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem formularioDeVentasToolStripMenuItem;
     }
 }

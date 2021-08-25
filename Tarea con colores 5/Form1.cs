@@ -44,5 +44,12 @@ namespace Tarea_con_colores_5
         {
             this.Close();
         }
+
+        private void formularioDeVentasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form formularioDeVentas = new Form4();
+            formularioDeVentas.Show();
+        }
+    }
     }
 }

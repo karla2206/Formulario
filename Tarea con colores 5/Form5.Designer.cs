@@ -41,19 +41,19 @@ namespace Tarea_con_colores_5
             this.txtCantidad = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.btnCargarLista = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button3 = new System.Windows.Forms.Button();
+            this.dgvLista = new System.Windows.Forms.DataGridView();
+            this.txtVender = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtEfectivo = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.lblFecha = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
+            this.lblCostoApagar = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.lblDevolucion = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -61,7 +61,7 @@ namespace Tarea_con_colores_5
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvLista)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -170,34 +170,35 @@ namespace Tarea_con_colores_5
             this.btnCargarLista.TabIndex = 10;
             this.btnCargarLista.Text = "Cargar a Lista";
             this.btnCargarLista.UseVisualStyleBackColor = true;
+            this.btnCargarLista.Click += new System.EventHandler(this.btnCargarLista_Click);
             // 
-            // dataGridView1
+            // dgvLista
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvLista.AllowUserToAddRows = false;
+            this.dgvLista.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvLista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvLista.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
             this.Column3,
             this.Column4,
             this.Column5});
-            this.dataGridView1.Location = new System.Drawing.Point(57, 298);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.Size = new System.Drawing.Size(449, 148);
-            this.dataGridView1.TabIndex = 11;
+            this.dgvLista.Location = new System.Drawing.Point(57, 298);
+            this.dgvLista.Name = "dgvLista";
+            this.dgvLista.RowHeadersVisible = false;
+            this.dgvLista.Size = new System.Drawing.Size(449, 148);
+            this.dgvLista.TabIndex = 11;
             // 
-            // button3
+            // txtVender
             // 
-            this.button3.BackColor = System.Drawing.Color.Red;
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(546, 366);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(223, 80);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "Vender";
-            this.button3.UseVisualStyleBackColor = false;
+            this.txtVender.BackColor = System.Drawing.Color.Red;
+            this.txtVender.ForeColor = System.Drawing.Color.White;
+            this.txtVender.Location = new System.Drawing.Point(546, 366);
+            this.txtVender.Name = "txtVender";
+            this.txtVender.Size = new System.Drawing.Size(223, 80);
+            this.txtVender.TabIndex = 12;
+            this.txtVender.Text = "Vender";
+            this.txtVender.UseVisualStyleBackColor = false;
             // 
             // label6
             // 
@@ -209,12 +210,12 @@ namespace Tarea_con_colores_5
             this.label6.Text = "Efectivo:";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // textBox5
+            // txtEfectivo
             // 
-            this.textBox5.Location = new System.Drawing.Point(565, 340);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(176, 20);
-            this.textBox5.TabIndex = 14;
+            this.txtEfectivo.Location = new System.Drawing.Point(565, 340);
+            this.txtEfectivo.Name = "txtEfectivo";
+            this.txtEfectivo.Size = new System.Drawing.Size(176, 20);
+            this.txtEfectivo.TabIndex = 14;
             // 
             // label7
             // 
@@ -248,22 +249,22 @@ namespace Tarea_con_colores_5
             // 
             this.panel2.BackColor = System.Drawing.Color.Black;
             this.panel2.Controls.Add(this.label13);
-            this.panel2.Controls.Add(this.label12);
+            this.panel2.Controls.Add(this.lblCostoApagar);
             this.panel2.Location = new System.Drawing.Point(618, 163);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(170, 25);
             this.panel2.TabIndex = 20;
             // 
-            // label12
+            // lblCostoApagar
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.Red;
-            this.label12.Location = new System.Drawing.Point(54, 5);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(40, 19);
-            this.label12.TabIndex = 20;
-            this.label12.Text = "0.00";
+            this.lblCostoApagar.AutoSize = true;
+            this.lblCostoApagar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCostoApagar.ForeColor = System.Drawing.Color.Red;
+            this.lblCostoApagar.Location = new System.Drawing.Point(54, 5);
+            this.lblCostoApagar.Name = "lblCostoApagar";
+            this.lblCostoApagar.Size = new System.Drawing.Size(40, 19);
+            this.lblCostoApagar.TabIndex = 20;
+            this.lblCostoApagar.Text = "0.00";
             // 
             // label13
             // 
@@ -280,7 +281,7 @@ namespace Tarea_con_colores_5
             // 
             this.panel3.BackColor = System.Drawing.Color.Black;
             this.panel3.Controls.Add(this.label9);
-            this.panel3.Controls.Add(this.label10);
+            this.panel3.Controls.Add(this.lblDevolucion);
             this.panel3.Location = new System.Drawing.Point(618, 219);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(170, 25);
@@ -297,16 +298,16 @@ namespace Tarea_con_colores_5
             this.label9.TabIndex = 21;
             this.label9.Text = "$";
             // 
-            // label10
+            // lblDevolucion
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Lime;
-            this.label10.Location = new System.Drawing.Point(54, 5);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(40, 19);
-            this.label10.TabIndex = 20;
-            this.label10.Text = "0.00";
+            this.lblDevolucion.AutoSize = true;
+            this.lblDevolucion.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDevolucion.ForeColor = System.Drawing.Color.Lime;
+            this.lblDevolucion.Location = new System.Drawing.Point(54, 5);
+            this.lblDevolucion.Name = "lblDevolucion";
+            this.lblDevolucion.Size = new System.Drawing.Size(40, 19);
+            this.lblDevolucion.TabIndex = 20;
+            this.lblDevolucion.Text = "0.00";
             // 
             // label11
             // 
@@ -353,10 +354,10 @@ namespace Tarea_con_colores_5
             this.Controls.Add(this.label8);
             this.Controls.Add(this.lblFecha);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtEfectivo);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.txtVender);
+            this.Controls.Add(this.dgvLista);
             this.Controls.Add(this.btnCargarLista);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtCantidad);
@@ -369,10 +370,10 @@ namespace Tarea_con_colores_5
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Name = "Form5";
-            this.Text = "Fornulario de Ventas";
+            this.Text = "Formulario de Ventas";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvLista)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -396,10 +397,10 @@ namespace Tarea_con_colores_5
         private System.Windows.Forms.TextBox txtCantidad;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnCargarLista;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.DataGridView dgvLista;
+        private System.Windows.Forms.Button txtVender;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtEfectivo;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label lblFecha;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
@@ -410,10 +411,10 @@ namespace Tarea_con_colores_5
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label lblCostoApagar;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lblDevolucion;
         private System.Windows.Forms.Label label11;
     }
 }

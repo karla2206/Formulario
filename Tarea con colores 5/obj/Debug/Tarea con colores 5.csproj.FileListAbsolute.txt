@@ -43,3 +43,4 @@ C:\Users\Jose Lobos\Source\Repos\karla2206\Formularios-con-colores\Tarea con col
 C:\Users\Jose Lobos\Source\Repos\karla2206\Formularios-con-colores\Tarea con colores 5\obj\Debug\Tarea con colores 5.pdb
 C:\Users\Jose Lobos\Source\Repos\karla2206\Formularios-con-colores\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Form3.resources
 C:\Users\Jose Lobos\Source\Repos\karla2206\Formularios-con-colores\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Form4.resources
+C:\Users\Jose Lobos\Source\Repos\karla2206\Formularios-con-colores\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Form5.resources
