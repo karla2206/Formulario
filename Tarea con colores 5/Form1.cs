@@ -33,5 +33,11 @@ namespace Tarea_con_colores_5
             laptops.Show();
 
         }
+
+        private void celularesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form Celulares = new Form4();
+            Celulares.Show();
+        }
     }
 }

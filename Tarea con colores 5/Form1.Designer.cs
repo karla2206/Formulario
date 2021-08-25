@@ -37,6 +37,11 @@ namespace Tarea_con_colores_5
             this.computadorasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.laptopsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.joseAlexanderSalinasLobosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.karlaBeatrizToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.juanCarlosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.juanAlfredoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.celularesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,9 +67,14 @@ namespace Tarea_con_colores_5
             // 
             // personalToolStripMenuItem
             // 
+            this.personalToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.joseAlexanderSalinasLobosToolStripMenuItem,
+            this.karlaBeatrizToolStripMenuItem,
+            this.juanCarlosToolStripMenuItem,
+            this.juanAlfredoToolStripMenuItem});
             this.personalToolStripMenuItem.Name = "personalToolStripMenuItem";
-            this.personalToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
-            this.personalToolStripMenuItem.Text = "Personal";
+            this.personalToolStripMenuItem.Size = new System.Drawing.Size(78, 20);
+            this.personalToolStripMenuItem.Text = "Integrantes";
             // 
             // ayudaToolStripMenuItem
             // 
@@ -76,7 +86,8 @@ namespace Tarea_con_colores_5
             // 
             this.acercaDeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.computadorasToolStripMenuItem,
-            this.laptopsToolStripMenuItem});
+            this.laptopsToolStripMenuItem,
+            this.celularesToolStripMenuItem});
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
             this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
             this.acercaDeToolStripMenuItem.Text = "Acerca De...";
@@ -101,15 +112,48 @@ namespace Tarea_con_colores_5
             this.laptopsToolStripMenuItem.Text = "Laptops";
             this.laptopsToolStripMenuItem.Click += new System.EventHandler(this.laptopsToolStripMenuItem_Click);
             // 
+            // joseAlexanderSalinasLobosToolStripMenuItem
+            // 
+            this.joseAlexanderSalinasLobosToolStripMenuItem.Name = "joseAlexanderSalinasLobosToolStripMenuItem";
+            this.joseAlexanderSalinasLobosToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
+            this.joseAlexanderSalinasLobosToolStripMenuItem.Text = "Jose Alexander Salinas Lobos";
+            // 
+            // karlaBeatrizToolStripMenuItem
+            // 
+            this.karlaBeatrizToolStripMenuItem.Name = "karlaBeatrizToolStripMenuItem";
+            this.karlaBeatrizToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
+            this.karlaBeatrizToolStripMenuItem.Text = "Karla Beatriz";
+            // 
+            // juanCarlosToolStripMenuItem
+            // 
+            this.juanCarlosToolStripMenuItem.Name = "juanCarlosToolStripMenuItem";
+            this.juanCarlosToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
+            this.juanCarlosToolStripMenuItem.Text = "Juan Carlos ";
+            // 
+            // juanAlfredoToolStripMenuItem
+            // 
+            this.juanAlfredoToolStripMenuItem.Name = "juanAlfredoToolStripMenuItem";
+            this.juanAlfredoToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
+            this.juanAlfredoToolStripMenuItem.Text = "Juan Alfredo";
+            // 
+            // celularesToolStripMenuItem
+            // 
+            this.celularesToolStripMenuItem.Name = "celularesToolStripMenuItem";
+            this.celularesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.celularesToolStripMenuItem.Text = "Celulares";
+            this.celularesToolStripMenuItem.Click += new System.EventHandler(this.celularesToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Yellow;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
+            this.ForeColor = System.Drawing.Color.White;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Empresa Electric";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -127,5 +171,10 @@ namespace Tarea_con_colores_5
         private System.Windows.Forms.ToolStripMenuItem computadorasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem laptopsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem joseAlexanderSalinasLobosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem karlaBeatrizToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem juanCarlosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem juanAlfredoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem celularesToolStripMenuItem;
     }
 }
