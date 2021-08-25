@@ -34,10 +34,9 @@ namespace Tarea_con_colores_5
             this.personalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.computadorasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.desktopHpPavilionGamingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.allInOneHp200G4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.laptopsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -76,10 +75,18 @@ namespace Tarea_con_colores_5
             // acercaDeToolStripMenuItem
             // 
             this.acercaDeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.computadorasToolStripMenuItem});
+            this.computadorasToolStripMenuItem,
+            this.laptopsToolStripMenuItem});
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
             this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
             this.acercaDeToolStripMenuItem.Text = "Acerca De...";
+            // 
+            // computadorasToolStripMenuItem
+            // 
+            this.computadorasToolStripMenuItem.Name = "computadorasToolStripMenuItem";
+            this.computadorasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.computadorasToolStripMenuItem.Text = "Computadoras";
+            this.computadorasToolStripMenuItem.Click += new System.EventHandler(this.computadorasToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
@@ -87,27 +94,12 @@ namespace Tarea_con_colores_5
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
             this.salirToolStripMenuItem.Text = "Salir";
             // 
-            // computadorasToolStripMenuItem
+            // laptopsToolStripMenuItem
             // 
-            this.computadorasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.desktopHpPavilionGamingToolStripMenuItem,
-            this.allInOneHp200G4ToolStripMenuItem});
-            this.computadorasToolStripMenuItem.Name = "computadorasToolStripMenuItem";
-            this.computadorasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.computadorasToolStripMenuItem.Text = "Computadoras";
-            this.computadorasToolStripMenuItem.Click += new System.EventHandler(this.computadorasToolStripMenuItem_Click);
-            // 
-            // desktopHpPavilionGamingToolStripMenuItem
-            // 
-            this.desktopHpPavilionGamingToolStripMenuItem.Name = "desktopHpPavilionGamingToolStripMenuItem";
-            this.desktopHpPavilionGamingToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
-            this.desktopHpPavilionGamingToolStripMenuItem.Text = "Desktop Hp Pavilion Gaming";
-            // 
-            // allInOneHp200G4ToolStripMenuItem
-            // 
-            this.allInOneHp200G4ToolStripMenuItem.Name = "allInOneHp200G4ToolStripMenuItem";
-            this.allInOneHp200G4ToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
-            this.allInOneHp200G4ToolStripMenuItem.Text = "All In One Hp 200 G4";
+            this.laptopsToolStripMenuItem.Name = "laptopsToolStripMenuItem";
+            this.laptopsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.laptopsToolStripMenuItem.Text = "Laptops";
+            this.laptopsToolStripMenuItem.Click += new System.EventHandler(this.laptopsToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -134,7 +126,6 @@ namespace Tarea_con_colores_5
         private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem computadorasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem desktopHpPavilionGamingToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem allInOneHp200G4ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem laptopsToolStripMenuItem;
     }
 }

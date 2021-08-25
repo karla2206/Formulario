@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace Tarea_con_colores_5
 {
-    public partial class Form2 : Form
+    public partial class Form3 : Form
     {
-        public Form2()
+        public Form3()
         {
             InitializeComponent();
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
+        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

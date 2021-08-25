@@ -17,15 +17,21 @@ namespace Tarea_con_colores_5
             InitializeComponent();
         }
 
-        private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
+      
 
         private void computadorasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form Computadoras = new Form2 ();
             Computadoras.Show();
+        }
+
+      
+
+        private void laptopsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form laptops = new Form3();
+            laptops.Show();
+
         }
     }
 }

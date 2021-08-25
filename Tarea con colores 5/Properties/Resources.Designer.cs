@@ -113,6 +113,26 @@ namespace Tarea_con_colores_5.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla__300_ {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla (300)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla__302_ {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla (302)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FACE {
             get {
                 object obj = ResourceManager.GetObject("FACE", resourceCulture);
