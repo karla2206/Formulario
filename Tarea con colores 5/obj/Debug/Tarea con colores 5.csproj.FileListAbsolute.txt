@@ -30,3 +30,14 @@ C:\Users\pc\source\repos\github\Formularios-con-colores\Tarea con colores 5\obj\
 C:\Users\pc\source\repos\github\Formularios-con-colores\Tarea con colores 5\obj\Debug\Tarea con colores 5.csproj.CoreCompileInputs.cache
 C:\Users\pc\source\repos\github\Formularios-con-colores\Tarea con colores 5\obj\Debug\Tarea con colores 5.exe
 C:\Users\pc\source\repos\github\Formularios-con-colores\Tarea con colores 5\obj\Debug\Tarea con colores 5.pdb
+C:\Users\Jose Lobos\Source\Repos\karla2206\Formularios-con-colores\Tarea con colores 5\bin\Debug\Tarea con colores 5.exe.config
+C:\Users\Jose Lobos\Source\Repos\karla2206\Formularios-con-colores\Tarea con colores 5\bin\Debug\Tarea con colores 5.exe
+C:\Users\Jose Lobos\Source\Repos\karla2206\Formularios-con-colores\Tarea con colores 5\bin\Debug\Tarea con colores 5.pdb
+C:\Users\Jose Lobos\Source\Repos\karla2206\Formularios-con-colores\Tarea con colores 5\obj\Debug\Tarea con colores 5.csproj.AssemblyReference.cache
+C:\Users\Jose Lobos\Source\Repos\karla2206\Formularios-con-colores\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Form1.resources
+C:\Users\Jose Lobos\Source\Repos\karla2206\Formularios-con-colores\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Form2.resources
+C:\Users\Jose Lobos\Source\Repos\karla2206\Formularios-con-colores\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Properties.Resources.resources
+C:\Users\Jose Lobos\Source\Repos\karla2206\Formularios-con-colores\Tarea con colores 5\obj\Debug\Tarea con colores 5.csproj.GenerateResource.cache
+C:\Users\Jose Lobos\Source\Repos\karla2206\Formularios-con-colores\Tarea con colores 5\obj\Debug\Tarea con colores 5.csproj.CoreCompileInputs.cache
+C:\Users\Jose Lobos\Source\Repos\karla2206\Formularios-con-colores\Tarea con colores 5\obj\Debug\Tarea con colores 5.exe
+C:\Users\Jose Lobos\Source\Repos\karla2206\Formularios-con-colores\Tarea con colores 5\obj\Debug\Tarea con colores 5.pdb

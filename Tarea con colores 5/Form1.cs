@@ -19,29 +19,13 @@ namespace Tarea_con_colores_5
 
         private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Desarrollado por: Grupo numero 5", "ACERCA DE...");
-        }
-
-        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void nuevoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form Nuevo = new Form2();
-
-           Nuevo.Show();
-        }
-
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void computadorasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Form Computadoras = new Form2 ();
+            Computadoras.Show();
         }
     }
 }
