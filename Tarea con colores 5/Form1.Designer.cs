@@ -150,8 +150,8 @@ namespace Tarea_con_colores_5
             // formularioParaRegistroDePreciosToolStripMenuItem
             // 
             this.formularioParaRegistroDePreciosToolStripMenuItem.Name = "formularioParaRegistroDePreciosToolStripMenuItem";
-            this.formularioParaRegistroDePreciosToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
-            this.formularioParaRegistroDePreciosToolStripMenuItem.Text = "Formulario Para Registro de Ventas";
+            this.formularioParaRegistroDePreciosToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.formularioParaRegistroDePreciosToolStripMenuItem.Text = "Formulario de Ventas";
             // 
             // Form1
             // 
