@@ -42,6 +42,8 @@ namespace Tarea_con_colores_5
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Muchas gracias por visitarnos, lo esperamos pronto", "EMPRESA ELECTRIC",
+                MessageBoxButtons.OK, MessageBoxIcon.Asterisk );
             this.Close();
         }
 

@@ -45,6 +45,7 @@ namespace Tarea_con_colores_5
             this.celularesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.emersonSamuelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -60,7 +61,8 @@ namespace Tarea_con_colores_5
             this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1067, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -69,13 +71,13 @@ namespace Tarea_con_colores_5
             this.formulariosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.formularioDeVentasToolStripMenuItem});
             this.formulariosToolStripMenuItem.Name = "formulariosToolStripMenuItem";
-            this.formulariosToolStripMenuItem.Size = new System.Drawing.Size(101, 24);
+            this.formulariosToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
             this.formulariosToolStripMenuItem.Text = "Formularios";
             // 
             // formularioDeVentasToolStripMenuItem
             // 
             this.formularioDeVentasToolStripMenuItem.Name = "formularioDeVentasToolStripMenuItem";
-            this.formularioDeVentasToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
+            this.formularioDeVentasToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
             this.formularioDeVentasToolStripMenuItem.Text = "Formulario de Ventas";
             this.formularioDeVentasToolStripMenuItem.Click += new System.EventHandler(this.formularioDeVentasToolStripMenuItem_Click);
             // 
@@ -86,47 +88,48 @@ namespace Tarea_con_colores_5
             this.karlaBeatrizToolStripMenuItem,
             this.juanCarlosToolStripMenuItem,
             this.juanAlfredoToolStripMenuItem,
-            this.katterineYeferineToolStripMenuItem});
+            this.katterineYeferineToolStripMenuItem,
+            this.emersonSamuelToolStripMenuItem});
             this.personalToolStripMenuItem.Name = "personalToolStripMenuItem";
-            this.personalToolStripMenuItem.Size = new System.Drawing.Size(97, 24);
+            this.personalToolStripMenuItem.Size = new System.Drawing.Size(78, 20);
             this.personalToolStripMenuItem.Text = "Integrantes";
             // 
             // joseAlexanderSalinasLobosToolStripMenuItem
             // 
             this.joseAlexanderSalinasLobosToolStripMenuItem.Name = "joseAlexanderSalinasLobosToolStripMenuItem";
-            this.joseAlexanderSalinasLobosToolStripMenuItem.Size = new System.Drawing.Size(285, 26);
+            this.joseAlexanderSalinasLobosToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
             this.joseAlexanderSalinasLobosToolStripMenuItem.Text = "Jose Alexander Salinas Lobos";
             // 
             // karlaBeatrizToolStripMenuItem
             // 
             this.karlaBeatrizToolStripMenuItem.Name = "karlaBeatrizToolStripMenuItem";
-            this.karlaBeatrizToolStripMenuItem.Size = new System.Drawing.Size(339, 26);
+            this.karlaBeatrizToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
             this.karlaBeatrizToolStripMenuItem.Text = "Karla Beatriz Castellanos Serpas";
             this.karlaBeatrizToolStripMenuItem.Click += new System.EventHandler(this.karlaBeatrizToolStripMenuItem_Click);
             // 
             // juanCarlosToolStripMenuItem
             // 
             this.juanCarlosToolStripMenuItem.Name = "juanCarlosToolStripMenuItem";
-            this.juanCarlosToolStripMenuItem.Size = new System.Drawing.Size(339, 26);
+            this.juanCarlosToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
             this.juanCarlosToolStripMenuItem.Text = "Juan Carlos  Mejía Morales";
             // 
             // juanAlfredoToolStripMenuItem
             // 
             this.juanAlfredoToolStripMenuItem.Name = "juanAlfredoToolStripMenuItem";
-            this.juanAlfredoToolStripMenuItem.Size = new System.Drawing.Size(339, 26);
+            this.juanAlfredoToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
             this.juanAlfredoToolStripMenuItem.Text = "Juan Alfredo Martínez Molina";
             // 
             // katterineYeferineToolStripMenuItem
             // 
             this.katterineYeferineToolStripMenuItem.Name = "katterineYeferineToolStripMenuItem";
-            this.katterineYeferineToolStripMenuItem.Size = new System.Drawing.Size(323, 26);
+            this.katterineYeferineToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
             this.katterineYeferineToolStripMenuItem.Text = "Katterin Yeferin Campos Rodríguez";
             this.katterineYeferineToolStripMenuItem.Click += new System.EventHandler(this.katterineYeferineToolStripMenuItem_Click);
             // 
             // ayudaToolStripMenuItem
             // 
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(65, 24);
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
             this.ayudaToolStripMenuItem.Click += new System.EventHandler(this.ayudaToolStripMenuItem_Click);
             // 
@@ -137,59 +140,64 @@ namespace Tarea_con_colores_5
             this.laptopsToolStripMenuItem,
             this.celularesToolStripMenuItem});
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(100, 24);
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
             this.acercaDeToolStripMenuItem.Text = "Acerca De...";
             // 
             // computadorasToolStripMenuItem
             // 
             this.computadorasToolStripMenuItem.Name = "computadorasToolStripMenuItem";
-            this.computadorasToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
+            this.computadorasToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.computadorasToolStripMenuItem.Text = "Computadoras";
             this.computadorasToolStripMenuItem.Click += new System.EventHandler(this.computadorasToolStripMenuItem_Click);
             // 
             // laptopsToolStripMenuItem
             // 
             this.laptopsToolStripMenuItem.Name = "laptopsToolStripMenuItem";
-            this.laptopsToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
+            this.laptopsToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.laptopsToolStripMenuItem.Text = "Laptops";
             this.laptopsToolStripMenuItem.Click += new System.EventHandler(this.laptopsToolStripMenuItem_Click);
             // 
             // celularesToolStripMenuItem
             // 
             this.celularesToolStripMenuItem.Name = "celularesToolStripMenuItem";
-            this.celularesToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
+            this.celularesToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.celularesToolStripMenuItem.Text = "Celulares";
             this.celularesToolStripMenuItem.Click += new System.EventHandler(this.celularesToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(52, 24);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.pictureBox1.Image = global::Tarea_con_colores_5.Properties.Resources.Captura_de_pantalla__307_;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 33);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 27);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1067, 521);
+            this.pictureBox1.Size = new System.Drawing.Size(800, 423);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // emersonSamuelToolStripMenuItem
+            // 
+            this.emersonSamuelToolStripMenuItem.Name = "emersonSamuelToolStripMenuItem";
+            this.emersonSamuelToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
+            this.emersonSamuelToolStripMenuItem.Text = "Emerson Samuel Mejía Cerón";
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Yellow;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.ForeColor = System.Drawing.Color.White;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Empresa Electric";
             this.menuStrip1.ResumeLayout(false);
@@ -218,5 +226,6 @@ namespace Tarea_con_colores_5
         private System.Windows.Forms.ToolStripMenuItem katterineYeferineToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem formularioDeVentasToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ToolStripMenuItem emersonSamuelToolStripMenuItem;
     }
 }
