@@ -31,5 +31,60 @@ namespace Tarea_con_colores_5
         {
             this.Close();
         }
+
+        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox4_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox5_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox6_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

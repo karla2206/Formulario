@@ -61,6 +61,11 @@ namespace Tarea_con_colores_5
             Form AYUDA= new Form6();
             AYUDA.Show();
         }
+
+        private void karlaBeatrizToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     }
 

@@ -74,3 +74,7 @@ C:\Users\Jose Lobos\Downloads\Formularios-colores (1)\Formularios-colores\Tarea 
 C:\Users\Jose Lobos\Downloads\Formularios-colores (1)\Formularios-colores\Tarea con colores 5\obj\Debug\Tarea con colores 5.csproj.CoreCompileInputs.cache
 C:\Users\Jose Lobos\Downloads\Formularios-colores (1)\Formularios-colores\Tarea con colores 5\obj\Debug\Tarea con colores 5.exe
 C:\Users\Jose Lobos\Downloads\Formularios-colores (1)\Formularios-colores\Tarea con colores 5\obj\Debug\Tarea con colores 5.pdb
+C:\Users\pc\source\repos\github\Formularios-con-colores\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Form3.resources
+C:\Users\pc\source\repos\github\Formularios-con-colores\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Form4.resources
+C:\Users\pc\source\repos\github\Formularios-con-colores\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Form5.resources
+C:\Users\pc\source\repos\github\Formularios-con-colores\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Form6.resources

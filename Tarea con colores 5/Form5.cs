@@ -103,8 +103,15 @@ namespace Tarea_con_colores_5
             }
         }
 
+        private void dgvLista_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
+        }
 
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
 
