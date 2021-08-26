@@ -66,6 +66,7 @@ namespace Tarea_con_colores_5
             {
 
             }
+            CostoApagar();
         }
 
         public void CostoApagar()
@@ -89,8 +90,24 @@ namespace Tarea_con_colores_5
                "EMPRESA ELECTRIC ",
               MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
+
+        private void txtEfectivo_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                lblDevolucion.Text = (float.Parse(txtEfectivo.Text) - float.Parse(lblCostoApagar.Text)).ToString();
+            }
+            catch
+            {
+                lblDevolucion.Text = "0.00";
+            }
+        }
+
+
+
     }
 }
+
 
 
 

@@ -39,7 +39,6 @@ namespace Tarea_con_colores_5
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtPrecio = new System.Windows.Forms.TextBox();
             this.txtCantidad = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.btnCargarLista = new System.Windows.Forms.Button();
             this.dgvLista = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -50,8 +49,6 @@ namespace Tarea_con_colores_5
             this.txtVender = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.txtEfectivo = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.lblFecha = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
@@ -153,15 +150,6 @@ namespace Tarea_con_colores_5
             this.txtCantidad.Size = new System.Drawing.Size(100, 20);
             this.txtCantidad.TabIndex = 8;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(332, 159);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(81, 20);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Buscar";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // btnCargarLista
             // 
             this.btnCargarLista.Location = new System.Drawing.Point(49, 268);
@@ -242,25 +230,7 @@ namespace Tarea_con_colores_5
             this.txtEfectivo.Name = "txtEfectivo";
             this.txtEfectivo.Size = new System.Drawing.Size(176, 20);
             this.txtEfectivo.TabIndex = 14;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(562, 104);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(40, 13);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "Fecha:";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // lblFecha
-            // 
-            this.lblFecha.AutoSize = true;
-            this.lblFecha.Location = new System.Drawing.Point(608, 104);
-            this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(16, 13);
-            this.lblFecha.TabIndex = 16;
-            this.lblFecha.Text = "...";
+            this.txtEfectivo.TextChanged += new System.EventHandler(this.txtEfectivo_TextChanged);
             // 
             // label8
             // 
@@ -348,19 +318,17 @@ namespace Tarea_con_colores_5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.CadetBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.lblFecha);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.txtEfectivo);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtVender);
             this.Controls.Add(this.dgvLista);
             this.Controls.Add(this.btnCargarLista);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtCantidad);
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.txtNombre);
@@ -396,14 +364,11 @@ namespace Tarea_con_colores_5
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtPrecio;
         private System.Windows.Forms.TextBox txtCantidad;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnCargarLista;
         private System.Windows.Forms.DataGridView dgvLista;
         private System.Windows.Forms.Button txtVender;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtEfectivo;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label lblFecha;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
