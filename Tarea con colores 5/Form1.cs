@@ -60,13 +60,26 @@ namespace Tarea_con_colores_5
 
         private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form AYUDA= new Form6();
-            AYUDA.Show();
+           
         }
 
         private void karlaBeatrizToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void ayudasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            {
+                Form AYUDA = new Form6();
+                AYUDA.Show();
+            }
+        }
+
+        private void enQuePodemosAyudarteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form ayudas = new Form7();
+           ayudas.Show();
         }
     }
     }

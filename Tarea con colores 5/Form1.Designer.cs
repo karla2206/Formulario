@@ -38,14 +38,16 @@ namespace Tarea_con_colores_5
             this.juanCarlosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.juanAlfredoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.katterineYeferineToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.emersonSamuelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.enQuePodemosAyudarteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ayudasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.computadorasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.laptopsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.celularesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.emersonSamuelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -126,12 +128,35 @@ namespace Tarea_con_colores_5
             this.katterineYeferineToolStripMenuItem.Text = "Katterin Yeferin Campos Rodríguez";
             this.katterineYeferineToolStripMenuItem.Click += new System.EventHandler(this.katterineYeferineToolStripMenuItem_Click);
             // 
+            // emersonSamuelToolStripMenuItem
+            // 
+            this.emersonSamuelToolStripMenuItem.Name = "emersonSamuelToolStripMenuItem";
+            this.emersonSamuelToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
+            this.emersonSamuelToolStripMenuItem.Text = "Emerson Samuel Mejía Cerón";
+            // 
             // ayudaToolStripMenuItem
             // 
+            this.ayudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.enQuePodemosAyudarteToolStripMenuItem,
+            this.ayudasToolStripMenuItem});
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
             this.ayudaToolStripMenuItem.Click += new System.EventHandler(this.ayudaToolStripMenuItem_Click);
+            // 
+            // enQuePodemosAyudarteToolStripMenuItem
+            // 
+            this.enQuePodemosAyudarteToolStripMenuItem.Name = "enQuePodemosAyudarteToolStripMenuItem";
+            this.enQuePodemosAyudarteToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.enQuePodemosAyudarteToolStripMenuItem.Text = "En que podemos ayudarte";
+            this.enQuePodemosAyudarteToolStripMenuItem.Click += new System.EventHandler(this.enQuePodemosAyudarteToolStripMenuItem_Click);
+            // 
+            // ayudasToolStripMenuItem
+            // 
+            this.ayudasToolStripMenuItem.Name = "ayudasToolStripMenuItem";
+            this.ayudasToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.ayudasToolStripMenuItem.Text = "Ayudas";
+            this.ayudasToolStripMenuItem.Click += new System.EventHandler(this.ayudasToolStripMenuItem_Click);
             // 
             // acercaDeToolStripMenuItem
             // 
@@ -182,12 +207,6 @@ namespace Tarea_con_colores_5
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // emersonSamuelToolStripMenuItem
-            // 
-            this.emersonSamuelToolStripMenuItem.Name = "emersonSamuelToolStripMenuItem";
-            this.emersonSamuelToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
-            this.emersonSamuelToolStripMenuItem.Text = "Emerson Samuel Mejía Cerón";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -227,5 +246,7 @@ namespace Tarea_con_colores_5
         private System.Windows.Forms.ToolStripMenuItem formularioDeVentasToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ToolStripMenuItem emersonSamuelToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem enQuePodemosAyudarteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ayudasToolStripMenuItem;
     }
 }

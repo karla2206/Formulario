@@ -36,5 +36,11 @@ namespace Tarea_con_colores_5
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Muchas Gracias");
+            Close();
+        }
     }
 }
