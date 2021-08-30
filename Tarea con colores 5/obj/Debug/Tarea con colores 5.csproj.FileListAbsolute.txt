@@ -125,3 +125,19 @@ C:\Users\Jose Lobos\Source\Repos\Parcial-1\Tarea con colores 5\obj\Debug\Tarea c
 C:\Users\Jose Lobos\Source\Repos\Parcial-1\Tarea con colores 5\obj\Debug\Tarea con colores 5.exe
 C:\Users\Jose Lobos\Source\Repos\Parcial-1\Tarea con colores 5\obj\Debug\Tarea con colores 5.pdb
 C:\Users\Jose Lobos\Source\Repos\Parcial-1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Form1.resources
+C:\Users\Jose Lobos\Source\Repos\karla2206\Parcial-1\Tarea con colores 5\bin\Debug\Tarea con colores 5.exe.config
+C:\Users\Jose Lobos\Source\Repos\karla2206\Parcial-1\Tarea con colores 5\bin\Debug\Tarea con colores 5.exe
+C:\Users\Jose Lobos\Source\Repos\karla2206\Parcial-1\Tarea con colores 5\bin\Debug\Tarea con colores 5.pdb
+C:\Users\Jose Lobos\Source\Repos\karla2206\Parcial-1\Tarea con colores 5\obj\Debug\Tarea con colores 5.csproj.AssemblyReference.cache
+C:\Users\Jose Lobos\Source\Repos\karla2206\Parcial-1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Form1.resources
+C:\Users\Jose Lobos\Source\Repos\karla2206\Parcial-1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Menú.resources
+C:\Users\Jose Lobos\Source\Repos\karla2206\Parcial-1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Form3.resources
+C:\Users\Jose Lobos\Source\Repos\karla2206\Parcial-1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Form4.resources
+C:\Users\Jose Lobos\Source\Repos\karla2206\Parcial-1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Form5.resources
+C:\Users\Jose Lobos\Source\Repos\karla2206\Parcial-1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Form6.resources
+C:\Users\Jose Lobos\Source\Repos\karla2206\Parcial-1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Form7.resources
+C:\Users\Jose Lobos\Source\Repos\karla2206\Parcial-1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Properties.Resources.resources
+C:\Users\Jose Lobos\Source\Repos\karla2206\Parcial-1\Tarea con colores 5\obj\Debug\Tarea con colores 5.csproj.GenerateResource.cache
+C:\Users\Jose Lobos\Source\Repos\karla2206\Parcial-1\Tarea con colores 5\obj\Debug\Tarea con colores 5.csproj.CoreCompileInputs.cache
+C:\Users\Jose Lobos\Source\Repos\karla2206\Parcial-1\Tarea con colores 5\obj\Debug\Tarea con colores 5.exe
+C:\Users\Jose Lobos\Source\Repos\karla2206\Parcial-1\Tarea con colores 5\obj\Debug\Tarea con colores 5.pdb
