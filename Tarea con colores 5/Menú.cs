@@ -21,23 +21,19 @@ namespace Tarea_con_colores_5
 
         private void computadorasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form Computadoras = new Form2 ();
-            Computadoras.Show();
+            
         }
 
-      
 
         private void laptopsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form laptops = new Form3();
-            laptops.Show();
+            
 
         }
 
         private void celularesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form Celulares = new Form4();
-            Celulares.Show();
+            
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
@@ -80,6 +76,34 @@ namespace Tarea_con_colores_5
         {
             Form ayudas = new Form7();
            ayudas.Show();
+        }
+
+        private void laptopsToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Form laptops = new Form3();
+            laptops.Show();
+        }
+
+        private void celularesDisponiblesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form Celulares = new Form4();
+            Celulares.Show();
+        }
+
+        private void computadorasToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void computadorasDisponiblesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form Computadorasdisponibles = new Form1();
+            Computadorasdisponibles.Show();
         }
     }
     }
