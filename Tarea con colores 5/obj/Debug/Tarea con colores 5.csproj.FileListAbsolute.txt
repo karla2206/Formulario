@@ -176,3 +176,10 @@ C:\Users\10kar\OneDrive\Escritorio\Program ciclo II\parcial1\Tarea con colores 5
 C:\Users\10kar\OneDrive\Escritorio\Program ciclo II\parcial1\Tarea con colores 5\obj\Debug\Tarea con colores 5.csproj.CoreCompileInputs.cache
 C:\Users\10kar\OneDrive\Escritorio\Program ciclo II\parcial1\Tarea con colores 5\obj\Debug\Tarea con colores 5.exe
 C:\Users\10kar\OneDrive\Escritorio\Program ciclo II\parcial1\Tarea con colores 5\obj\Debug\Tarea con colores 5.pdb
+C:\Users\10kar\OneDrive\Escritorio\Program ciclo II\parcial1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Computadoras.resources
+C:\Users\10kar\OneDrive\Escritorio\Program ciclo II\parcial1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Laptops.resources
+C:\Users\10kar\OneDrive\Escritorio\Program ciclo II\parcial1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Celulares.resources
+C:\Users\10kar\OneDrive\Escritorio\Program ciclo II\parcial1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Ventas.resources
+C:\Users\10kar\OneDrive\Escritorio\Program ciclo II\parcial1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Ayuda2.resources
+C:\Users\10kar\OneDrive\Escritorio\Program ciclo II\parcial1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Ayuda.resources
+C:\Users\10kar\OneDrive\Escritorio\Program ciclo II\parcial1\Tarea con colores 5\obj\Debug\Tecnology_Center.Properties.Resources.resources
