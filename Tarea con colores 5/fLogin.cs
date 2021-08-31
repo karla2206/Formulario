@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Tarea_con_colores_5
 {
-   
+
     public partial class fLogin : Form
     {
         string usuario = "usuario1";
@@ -23,9 +23,9 @@ namespace Tarea_con_colores_5
 
         private void baceptar_Click(object sender, EventArgs e)
         {
-            if(txtusuario.Text != contraseña  || txtcontra.Text != contraseña  )
+            if (txtusuario.Text != contraseña || txtcontra.Text != contraseña)
             {
-                if (txtusuario.Text != usuario )
+                if (txtusuario.Text != usuario)
                 {
                     MessageBox.Show("Usuario incorrecto");
                     txtusuario.Clear();
@@ -33,7 +33,22 @@ namespace Tarea_con_colores_5
                     return;
                 }
             }
+            if (txtcontra.Text != contraseña)
+            {
+                MessageBox.Show("La contrsaseña ingresada es incorrecta");
+                txtcontra.Clear();
+                txtcontra.Focus();
+                return;
+            }
+            else
+            {
+                Menú form = new Menú();
+                form.ShowDialog();
+            }
+
         }
+       
+
 
         private void fLogin_Load(object sender, EventArgs e)
         {
@@ -41,3 +56,5 @@ namespace Tarea_con_colores_5
         }
     }
 }
+    
+
