@@ -67,6 +67,7 @@ namespace Tarea_con_colores_5
             this.txtcontra.Name = "txtcontra";
             this.txtcontra.Size = new System.Drawing.Size(100, 20);
             this.txtcontra.TabIndex = 3;
+            this.txtcontra.UseSystemPasswordChar = true;
             // 
             // baceptar
             // 

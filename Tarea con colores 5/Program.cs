@@ -16,7 +16,7 @@ namespace Tarea_con_colores_5
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Menú());
+            Application.Run(new fLogin ());
         }
     }
 }
