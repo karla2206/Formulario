@@ -34,5 +34,10 @@ namespace Tarea_con_colores_5
                 }
             }
         }
+
+        private void fLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

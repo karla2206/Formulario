@@ -67,6 +67,7 @@ namespace Tarea_con_colores_5
             this.txtcontra.Name = "txtcontra";
             this.txtcontra.Size = new System.Drawing.Size(100, 20);
             this.txtcontra.TabIndex = 3;
+            this.txtcontra.UseSystemPasswordChar = true;
             // 
             // baceptar
             // 
@@ -90,6 +91,7 @@ namespace Tarea_con_colores_5
             this.Controls.Add(this.label1);
             this.Name = "fLogin";
             this.Text = "fLogin";
+            this.Load += new System.EventHandler(this.fLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
