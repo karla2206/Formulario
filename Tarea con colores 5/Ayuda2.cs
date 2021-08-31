@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Tarea_con_colores_5
 {
-    public partial class Form6 : Form
+    public partial class Ayuda2 : Form
     {
-        public Form6()
+        public Ayuda2()
         {
             InitializeComponent();
         }

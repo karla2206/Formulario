@@ -1,7 +1,7 @@
 ﻿
 namespace Tarea_con_colores_5
 {
-    partial class Form5
+    partial class Ventas
     {
         /// <summary>
         /// Required designer variable.

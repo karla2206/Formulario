@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Tarea_con_colores_5
 {
-    public partial class Form7 : Form
+    public partial class Computadoras : Form
     {
-        public Form7()
+        public Computadoras()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Gracias por comunicarte con nosotros, nos podremos en concacto lo mas pronto posible");
+            MessageBox.Show("Muchas Gracias");
             Close();
         }
     }
