@@ -59,6 +59,7 @@ namespace Tarea_con_colores_5
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.Control;
             this.label2.Location = new System.Drawing.Point(121, 265);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(112, 13);
@@ -75,9 +76,9 @@ namespace Tarea_con_colores_5
             // 
             // baceptar
             // 
-            this.baceptar.Location = new System.Drawing.Point(278, 313);
+            this.baceptar.Location = new System.Drawing.Point(130, 326);
             this.baceptar.Name = "baceptar";
-            this.baceptar.Size = new System.Drawing.Size(75, 23);
+            this.baceptar.Size = new System.Drawing.Size(84, 23);
             this.baceptar.TabIndex = 4;
             this.baceptar.Text = "Aceptar";
             this.baceptar.UseVisualStyleBackColor = true;
@@ -106,6 +107,7 @@ namespace Tarea_con_colores_5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(384, 361);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox1);
