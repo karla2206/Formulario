@@ -32,6 +32,18 @@ namespace Tarea_con_colores_5
                     txtusuario.Focus();
                     return;
                 }
+                if (txtcontra.Text!=contraseña )
+                {
+                    MessageBox.Show("La contrsaseña ingresada es incorrecta");
+                    txtcontra.Clear();
+                    txtcontra.Focus();
+                    return;
+                }
+            }
+            else
+            {
+                Menú form = new Menú();
+                form.Show();
             }
         }
     }
