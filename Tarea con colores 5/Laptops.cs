@@ -10,14 +10,21 @@ using System.Windows.Forms;
 
 namespace Tarea_con_colores_5
 {
-    public partial class Form4 : Form
+    public partial class Laptops : Form
     {
-        public Form4()
+        public Laptops()
         {
             InitializeComponent();
         }
 
-        private void label3_Click(object sender, EventArgs e)
+       
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
@@ -27,12 +34,17 @@ namespace Tarea_con_colores_5
 
         }
 
-        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        private void comboBox4_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void comboBox5_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox6_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
