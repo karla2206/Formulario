@@ -43,7 +43,7 @@ namespace Tarea_con_colores_5
             else
             {
                 Menú form = new Menú();
-                form.Show();
+                form.ShowDialog();
             }
         }
     }
