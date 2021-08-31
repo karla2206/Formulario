@@ -46,5 +46,10 @@ namespace Tarea_con_colores_5
                 form.ShowDialog();
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
