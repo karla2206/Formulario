@@ -188,5 +188,32 @@
   <ItemGroup>
     <None Include="Resources\Captura de pantalla %28322%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\53493124-computer-service-contorno-ilustración-reparación-de-portátiles-ilustración.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\53493124-computer-service-contorno-ilustración-reparación-de-portátiles-ilustración %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48798761-la-configuración-de-iconos-en-el-fondo-verde-.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48798761-la-configuración-de-iconos-en-el-fondo-verde- %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\218-2186546_desarrollo-software-png-mexico-y-el-desarrollo-de.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-web-development-software-development-computer-icons-mobile-app-development-web-developer-web-design-angle-web-design-web-hosting-service.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maintenance-computer-support-concept-vector-thin-line-icon-sign-symbol-illustration-isolated-background-102705054 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\218-2186546_desarrollo-software-png-mexico-y-el-desarrollo-de1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\53493124-computer-service-contorno-ilustración-reparación-de-portátiles-ilustración %282%291.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

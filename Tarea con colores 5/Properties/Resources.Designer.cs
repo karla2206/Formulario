@@ -63,6 +63,79 @@ namespace Tarea_con_colores_5.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _218_2186546_desarrollo_software_png_mexico_y_el_desarrollo_de {
+            get {
+                object obj = ResourceManager.GetObject("218-2186546_desarrollo-software-png-mexico-y-el-desarrollo-de", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _218_2186546_desarrollo_software_png_mexico_y_el_desarrollo_de1 {
+            get {
+                object obj = ResourceManager.GetObject("218-2186546_desarrollo-software-png-mexico-y-el-desarrollo-de1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _48798761_la_configuración_de_iconos_en_el_fondo_verde_ {
+            get {
+                object obj = ResourceManager.GetObject("48798761-la-configuración-de-iconos-en-el-fondo-verde-", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _48798761_la_configuración_de_iconos_en_el_fondo_verde___2_ {
+            get {
+                object obj = ResourceManager.GetObject("48798761-la-configuración-de-iconos-en-el-fondo-verde- (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _53493124_computer_service_contorno_ilustración_reparación_de_portátiles_ilustración {
+            get {
+                object obj = ResourceManager.GetObject("53493124-computer-service-contorno-ilustración-reparación-de-portátiles-ilustraci" +
+                        "ón", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _53493124_computer_service_contorno_ilustración_reparación_de_portátiles_ilustración__2_ {
+            get {
+                object obj = ResourceManager.GetObject("53493124-computer-service-contorno-ilustración-reparación-de-portátiles-ilustraci" +
+                        "ón (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _53493124_computer_service_contorno_ilustración_reparación_de_portátiles_ilustración__2_1 {
+            get {
+                object obj = ResourceManager.GetObject("53493124-computer-service-contorno-ilustración-reparación-de-portátiles-ilustraci" +
+                        "ón (2)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap big_data_01_1200x648 {
             get {
                 object obj = ResourceManager.GetObject("big_data_01-1200x648", resourceCulture);
@@ -166,6 +239,28 @@ namespace Tarea_con_colores_5.Properties {
         internal static System.Drawing.Bitmap FACE {
             get {
                 object obj = ResourceManager.GetObject("FACE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap maintenance_computer_support_concept_vector_thin_line_icon_sign_symbol_illustration_isolated_background_102705054__2_ {
+            get {
+                object obj = ResourceManager.GetObject("maintenance-computer-support-concept-vector-thin-line-icon-sign-symbol-illustrati" +
+                        "on-isolated-background-102705054 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_transparent_web_development_software_development_computer_icons_mobile_app_development_web_developer_web_design_angle_web_design_web_hosting_service {
+            get {
+                object obj = ResourceManager.GetObject("png-transparent-web-development-software-development-computer-icons-mobile-app-de" +
+                        "velopment-web-developer-web-design-angle-web-design-web-hosting-service", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

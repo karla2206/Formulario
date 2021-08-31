@@ -22,5 +22,15 @@ namespace Tarea_con_colores_5
             MessageBox.Show("Gracias por comunicarte con nosotros, nos podremos en concacto lo mas pronto posible");
             Close();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
