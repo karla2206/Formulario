@@ -118,7 +118,7 @@ namespace Tarea_con_colores_5
             "Laptop Hp ZBook G7",
             "Laptop Hp 250 G7"});
             this.comboBox1.Location = new System.Drawing.Point(490, 12);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(292, 21);
             this.comboBox1.TabIndex = 13;
@@ -132,7 +132,7 @@ namespace Tarea_con_colores_5
             "Procesador Intel® Core™ i7 de 10.ª generación",
             "Procesador Intel® Core™ i3 de 10.ª generación"});
             this.comboBox2.Location = new System.Drawing.Point(490, 84);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(292, 21);
             this.comboBox2.TabIndex = 14;
@@ -145,7 +145,7 @@ namespace Tarea_con_colores_5
             "Windows 10 Home 64",
             "Windows 10 Pro 64"});
             this.comboBox3.Location = new System.Drawing.Point(490, 152);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(292, 21);
             this.comboBox3.TabIndex = 15;
@@ -159,7 +159,7 @@ namespace Tarea_con_colores_5
             "32 GB de RAM DDR4-3200 MHz (2 x 16 GB)",
             "8 GB de RAM DDR4-2666 MHz (1 x 8 GB)"});
             this.comboBox4.Location = new System.Drawing.Point(490, 231);
-            this.comboBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox4.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(292, 21);
             this.comboBox4.TabIndex = 16;
@@ -173,7 +173,7 @@ namespace Tarea_con_colores_5
             "Pantalla 4K UHD de 39,6 cm (15,6\") en",
             "Pantalla HD antirreflectante, de 39,6 cm"});
             this.comboBox5.Location = new System.Drawing.Point(490, 301);
-            this.comboBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox5.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(292, 21);
             this.comboBox5.TabIndex = 17;
@@ -187,7 +187,7 @@ namespace Tarea_con_colores_5
             "$ 500.00",
             "$ 750.00"});
             this.comboBox6.Location = new System.Drawing.Point(490, 377);
-            this.comboBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox6.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox6.Name = "comboBox6";
             this.comboBox6.Size = new System.Drawing.Size(292, 21);
             this.comboBox6.TabIndex = 18;
@@ -204,7 +204,7 @@ namespace Tarea_con_colores_5
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form3
+            // Laptops
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -223,8 +223,8 @@ namespace Tarea_con_colores_5
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form3";
-            this.Text = "Acerca de Laptops";
+            this.Name = "Laptops";
+            this.Text = "Laptops";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
