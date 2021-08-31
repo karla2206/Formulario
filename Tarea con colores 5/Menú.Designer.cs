@@ -34,6 +34,7 @@ namespace Tarea_con_colores_5
             this.formulariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.formularioDeVentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.computadorasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.computadorasDisponiblesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.laptopsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.laptopsToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.celularesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,7 +51,6 @@ namespace Tarea_con_colores_5
             this.katterineYeferineToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.emersonSamuelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.computadorasDisponiblesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -96,6 +96,13 @@ namespace Tarea_con_colores_5
             this.computadorasToolStripMenuItem1.Size = new System.Drawing.Size(98, 20);
             this.computadorasToolStripMenuItem1.Text = "Computadoras";
             this.computadorasToolStripMenuItem1.Click += new System.EventHandler(this.computadorasToolStripMenuItem1_Click);
+            // 
+            // computadorasDisponiblesToolStripMenuItem
+            // 
+            this.computadorasDisponiblesToolStripMenuItem.Name = "computadorasDisponiblesToolStripMenuItem";
+            this.computadorasDisponiblesToolStripMenuItem.Size = new System.Drawing.Size(217, 22);
+            this.computadorasDisponiblesToolStripMenuItem.Text = "Computadoras Disponibles";
+            this.computadorasDisponiblesToolStripMenuItem.Click += new System.EventHandler(this.computadorasDisponiblesToolStripMenuItem_Click);
             // 
             // laptopsToolStripMenuItem1
             // 
@@ -216,13 +223,6 @@ namespace Tarea_con_colores_5
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
-            // computadorasDisponiblesToolStripMenuItem
-            // 
-            this.computadorasDisponiblesToolStripMenuItem.Name = "computadorasDisponiblesToolStripMenuItem";
-            this.computadorasDisponiblesToolStripMenuItem.Size = new System.Drawing.Size(217, 22);
-            this.computadorasDisponiblesToolStripMenuItem.Text = "Computadoras Disponibles";
-            this.computadorasDisponiblesToolStripMenuItem.Click += new System.EventHandler(this.computadorasDisponiblesToolStripMenuItem_Click);
-            // 
             // Menú
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -235,7 +235,7 @@ namespace Tarea_con_colores_5
             this.ForeColor = System.Drawing.Color.White;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Menú";
-            this.Text = "Empresa Electric";
+            this.Text = "Tecnology Center";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
