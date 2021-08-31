@@ -97,7 +97,8 @@ namespace Tarea_con_colores_5
 
         private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Form Acerca_de = new AboutBox1();
+            Acerca_de.Show();
         }
 
         private void computadorasDisponiblesToolStripMenuItem_Click(object sender, EventArgs e)
