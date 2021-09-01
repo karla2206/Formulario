@@ -194,3 +194,22 @@ C:\Users\usuario\Desktop\github\Parcial-1\Tarea con colores 5\obj\Debug\Tarea co
 C:\Users\usuario\Desktop\github\Parcial-1\Tarea con colores 5\obj\Debug\Tarea con colores 5.csproj.CoreCompileInputs.cache
 C:\Users\usuario\Desktop\github\Parcial-1\Tarea con colores 5\obj\Debug\Tarea con colores 5.exe
 C:\Users\usuario\Desktop\github\Parcial-1\Tarea con colores 5\obj\Debug\Tarea con colores 5.pdb
+C:\Users\pc\Source\Repos\Parcial-1\Tarea con colores 5\bin\Debug\Tarea con colores 5.exe.config
+C:\Users\pc\Source\Repos\Parcial-1\Tarea con colores 5\bin\Debug\Tarea con colores 5.exe
+C:\Users\pc\Source\Repos\Parcial-1\Tarea con colores 5\bin\Debug\Tarea con colores 5.pdb
+C:\Users\pc\Source\Repos\Parcial-1\Tarea con colores 5\obj\Debug\Tarea con colores 5.csproj.AssemblyReference.cache
+C:\Users\pc\Source\Repos\Parcial-1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.AboutBox1.resources
+C:\Users\pc\Source\Repos\Parcial-1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.fLogin.resources
+C:\Users\pc\Source\Repos\Parcial-1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Computadoras.resources
+C:\Users\pc\Source\Repos\Parcial-1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Menú.resources
+C:\Users\pc\Source\Repos\Parcial-1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Laptops.resources
+C:\Users\pc\Source\Repos\Parcial-1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Celulares.resources
+C:\Users\pc\Source\Repos\Parcial-1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Ventas.resources
+C:\Users\pc\Source\Repos\Parcial-1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Ayuda2.resources
+C:\Users\pc\Source\Repos\Parcial-1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Ayuda.resources
+C:\Users\pc\Source\Repos\Parcial-1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Properties.Resources.resources
+C:\Users\pc\Source\Repos\Parcial-1\Tarea con colores 5\obj\Debug\Tarea con colores 5.csproj.GenerateResource.cache
+C:\Users\pc\Source\Repos\Parcial-1\Tarea con colores 5\obj\Debug\Tarea con colores 5.csproj.CoreCompileInputs.cache
+C:\Users\pc\Source\Repos\Parcial-1\Tarea con colores 5\obj\Debug\Tarea con colores 5.exe
+C:\Users\pc\Source\Repos\Parcial-1\Tarea con colores 5\obj\Debug\Tarea con colores 5.pdb
+C:\Users\pc\Source\Repos\Parcial-1\Tarea con colores 5\obj\Debug\Tarea_con_colores_5.Integrantes.resources

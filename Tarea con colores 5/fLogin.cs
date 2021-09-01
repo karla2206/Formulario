@@ -42,9 +42,17 @@ namespace Tarea_con_colores_5
             }
             else
             {
-                Menú form = new Menú();
-                form.ShowDialog();
+                Form menu = new Menú();
+                this.Hide();
+                menu.ShowDialog();
+                
+
             }
+        }
+
+        private void fLogin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

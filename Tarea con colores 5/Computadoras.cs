@@ -22,5 +22,10 @@ namespace Tarea_con_colores_5
             MessageBox.Show("Muchas Gracias");
             Close();
         }
+
+        private void Computadoras_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

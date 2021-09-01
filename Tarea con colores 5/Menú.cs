@@ -49,20 +49,14 @@ namespace Tarea_con_colores_5
             formularioDeVentas.Show();
         }
 
-        private void katterineYeferineToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
+      
 
         private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
         {
            
         }
 
-        private void karlaBeatrizToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void ayudasToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -105,6 +99,12 @@ namespace Tarea_con_colores_5
         {
             Form Computadorasdisponibles = new Computadoras();
             Computadorasdisponibles.Show();
+        }
+
+        private void personalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form integrantesdeequipo = new Integrantes();
+            integrantesdeequipo.Show();
         }
     }
     }
