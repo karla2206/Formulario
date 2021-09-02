@@ -40,7 +40,7 @@ namespace Tarea_con_colores_5
         {
             MessageBox.Show("Muchas gracias por visitarnos, lo esperamos pronto", "EMPRESA ELECTRIC",
                 MessageBoxButtons.OK, MessageBoxIcon.Asterisk );
-            this.Close();
+           Application.Exit();
         }
 
         private void formularioDeVentasToolStripMenuItem_Click(object sender, EventArgs e)
