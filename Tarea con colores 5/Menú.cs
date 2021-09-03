@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Tarea_con_colores_5
+namespace Tarea_con_colores_5 
 {
     public partial class Menú : Form
     {

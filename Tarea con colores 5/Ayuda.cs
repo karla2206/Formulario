@@ -19,7 +19,7 @@ namespace Tarea_con_colores_5
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Gracias por comunicarte con nosotros, nos podremos en concacto lo mas pronto posible");
+            MessageBox.Show("Gracias por comunicarte con nosotros, nos podremos en contacto lo mas pronto posible");
             Close();
         }
 
